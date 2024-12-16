@@ -1,0 +1,2 @@
+This website is a side project for one of the clients who wanted to have a basic website for Tours and Travels.
+I can add more functionalities like Auth, DB etc using several services for ease and user data.
