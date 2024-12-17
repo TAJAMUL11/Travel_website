@@ -5,7 +5,6 @@ MenuIcon.addEventListener('click', () => {
   MenuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 })
-z
 
 
 
