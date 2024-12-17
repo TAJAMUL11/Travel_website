@@ -152,15 +152,16 @@ body {
 }
 .whatsapp{
   background-color: green;
-  box-shadow: 0 0 0.5rem green;
+  box-shadow: 0 0 1rem green;
 }
 .insta{
   background-color: #e70c9e;
-  box-shadow: 0 0 0.5rem #e70c9e;
+  box-shadow: 0 0 1rem #e70c9e;
 }
 
 .mail{
-  background-color:  rgba(255, 0, 0, 0.686);
+  background-color:  #ff0000af;
+  box-shadow: 0 0 1rem #ff0000af;
 }
 
 .social a:hover,
@@ -599,7 +600,7 @@ footer .copyright{
   #mainContent .main-cards{
     grid-template-columns: repeat(2, 140px);
   }
-  
+
    #mainContent .social{
     right: -1%;
     top: 100%;
