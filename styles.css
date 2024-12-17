@@ -136,19 +136,21 @@ body {
   color: var(--Text_color_Light);
   font-size: 1.6rem;
   border-radius: 50%;
-  padding: 0.5rem 0.8rem;
   transition: all 0.2s ease-in ;
 }
-.social .whatsapp{
+.social a i{
+  padding: 0.7rem;
+}
+.whatsapp{
   background-color: green;
   box-shadow: 0 0 0.5rem green;
 }
-.social .insta{
+.insta{
   background-color: #e70c9e;
   box-shadow: 0 0 0.5rem #e70c9e;
 }
 
-.social .mail{
+.mail{
   background-color:  rgba(255, 0, 0, 0.686);
 }
 
@@ -346,7 +348,7 @@ body {
 
 
 /* =================================Testimonial section================================*/
-#testimonials{
+/* #testimonials{
   max-width: 120%;
   max-height: 120vh;
   overflow-x: hidden;
@@ -436,7 +438,7 @@ body {
   width: 80px;
   height: auto;
   object-fit: contain;
-}
+} */
 
       /* Footer style */
 
@@ -462,18 +464,15 @@ body {
 }
 .footerNav .footer__icons a{
   margin: 0 0.6rem;
-  color: var(--Text_color_Dark);
+  color: var(--Text_color_Light);
   font-size: 1.6rem;
-  outline: 2px solid #0000003f;
   border-radius: 50%;
   padding: 0.5rem 0.8rem;
   transition: all 0.2s ease-in ;
 }
 .footerNav .footer__icons a:hover,
 .footerNav .footer__icons a:focus{
-  background-color: #0000003f;
-  backdrop-filter: blur(10px);
-  outline: none;
+ box-shadow: none;
 }
 
 #footer .footeraddress p{
@@ -637,9 +636,6 @@ footer .copyright{
 }
 
 @media screen and (max-width: 645px){
-  .main-heading h1{
-    font-size: 3.7rem;
-  }
  
   #packages .package-grid {
     grid-template-columns: auto;
